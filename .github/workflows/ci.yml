@@ -34,7 +34,7 @@ jobs:
             - name: "Run build"
               run: npm run build
 
-            - name: "Upload product-ready build files"
+            - name: "Upload product-ready build files3"
               uses: actions/upload-artifact@v4
               with:
                 name: build
